@@ -2,6 +2,8 @@ module agora-token-server
 
 go 1.20
 
+// +heroku goVersion go1.20
+
 require (
 	github.com/AgoraIO-Community/go-tokenbuilder v1.0.0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
